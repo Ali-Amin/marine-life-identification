@@ -40,16 +40,16 @@ def generate_annotations_from_VOTT_fixed(imgs_path, csv_path, class_no):
     
 # directory : csv file
 species = [
-    ('annotations/Thalassoma-lunare', 'annotations/Thalassoma-lunare/fishes-export.csv', 0),
-    ('annotations/Chaetodon-auriga', 'annotations/Chaetodon-auriga/Chaetodon-auriga-export.csv', 1),
-    ('annotations/Amphiprion-bicinctus', 'annotations/Amphiprion-bicinctus/clownfish-export.csv', 2),
-    ('annotations/Acanthurus-mata', 'annotations/Acanthurus-mata/Surgeonfish-export.csv', 3),
-    ('annotations/Pterois-volitans', 'annotations/Pterois-volitans/Lionfish-export.csv', 4),
-    ('drive-download\images\Acanthurus-mata', 'drive-download\images\Acanthurus-mata\Acanthurus-mata-export.csv', 3),
-    ('drive-download\images\Chaetodon-auriga', 'drive-download\images\Chaetodon-auriga\Chaetodon-auriga-export.csv', 1),
-    ('drive-download\images\Pterois-volitans', 'drive-download\images\Pterois-volitans\Pterois-volitans-export.csv', 4),
-    ('drive-download\images\Thalassoma-lunare', 'drive-download\images\Thalassoma-lunare\Thalassoma-lunare-export.csv', 0),
-    ('drive-download\images\clownfish', 'drive-download\images\clownfish\clownfish-export.csv', 2),
+    ('StaticImages/Thalassoma-lunare', 'StaticImages/Thalassoma-lunare/fishes-export.csv', 0),
+    ('StaticImages/Chaetodon-auriga', 'StaticImages/Chaetodon-auriga/Chaetodon-auriga-export.csv', 1),
+    ('StaticImages/Amphiprion-bicinctus', 'StaticImages/Amphiprion-bicinctus/clownfish-export.csv', 2),
+    ('StaticImages/Acanthurus-mata', 'StaticImages/Acanthurus-mata/Surgeonfish-export.csv', 3),
+    ('StaticImages/Pterois-volitans', 'StaticImages/Pterois-volitans/Lionfish-export.csv', 4),
+    ('images\Acanthurus-mata', 'images\Acanthurus-mata\Acanthurus-mata-export.csv', 3),
+    ('images\Chaetodon-auriga', 'images\Chaetodon-auriga\Chaetodon-auriga-export.csv', 1),
+    ('images\Pterois-volitans', 'images\Pterois-volitans\Pterois-volitans-export.csv', 4),
+    ('images\Thalassoma-lunare', 'images\Thalassoma-lunare\Thalassoma-lunare-export.csv', 0),
+    ('images\clownfish', 'images\clownfish\clownfish-export.csv', 2),
 
     ]
 
